@@ -1,0 +1,37 @@
+/* change 'choose file' to 'choose imgae' in create new post */
+.custom-file-upload {
+    background-color: #f0f0f0; /* grey background */
+    border: 1px solid #000; /* black thin line border */
+    color: #000; /* black text color */
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    padding: 4px 8px; /* reduced padding for a smaller button */
+    text-decoration: none;
+    border-radius: 3px; /* slightly rounded corners */
+    user-select: none;
+}
+.custom-file-upload:hover {
+    background-color: #e0e0e0; /* slightly darker grey on hover */
+}
+
+/* giving cards hover styling */
+.card-hover {
+    width: 33rem;
+    margin: 20px 20px 15px 22px;
+    padding: 0;
+    transition: transform 0.3s;
+}
+  
+.card-hover:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+
+  
+  
